@@ -1,19 +1,6 @@
-# make-choice-vue
+# Make-choice (VK MINI APP)
 
-## Project setup
-```
-npm install
-```
+### An app for people who can't choose something in life
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
