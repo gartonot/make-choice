@@ -14,16 +14,16 @@
     (e: 'click'): void
   }>()
 
-  const { label, href } = toRefs(props)
+  const { href } = toRefs(props)
   const buttonIsLink = computed(() => href.value.length > 0)
 </script>
 
 <template>
-  <a v-if="buttonIsLink" :href="href">
+  <router-link v-if="buttonIsLink" class="button" :to="href">
     <slot>
       {{ label }}
     </slot>
-  </a>
+  </router-link>
   <button v-else class="button" @click="emit('click')">
     <slot>
       {{ label }}
@@ -46,6 +46,7 @@
     box-shadow: 0 3px 0 $primary-darken-color;
     border-radius: 8px;
     cursor: pointer;
+    text-decoration: none;
 
     font-size: 16px;
     line-height: 19px;
