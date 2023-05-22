@@ -4,7 +4,9 @@
 
 <template>
   <div class="app g-container">
-    <logo-icon class="logo" />
+    <router-link to="/">
+      <logo-icon class="logo" />
+    </router-link>
     <router-view />
   </div>
 </template>
