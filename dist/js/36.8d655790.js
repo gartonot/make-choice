@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmake_choice_vue"]=self["webpackChunkmake_choice_vue"]||[]).push([[36],{4036:function(e,u,n){n.r(u),n.d(u,{default:function(){return s}});var c=n(3396);function r(e,u){return(0,c.wg)(),(0,c.iD)("div",null,"slug")}var t=n(89);const a={},i=(0,t.Z)(a,[["render",r]]);var s=i}}]);
+//# sourceMappingURL=36.8d655790.js.map
